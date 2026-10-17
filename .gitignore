@@ -1,0 +1,19 @@
+# Solver runs and generated states stay outside the archived case templates.
+/runs/
+**/processor*/
+**/postProcessing/
+**/constant/polyMesh/
+**/VTK*/
+**/__pycache__/
+*.pyc
+*.hst
+*.bin
+*.bin.info
+.venv/
+venv/
+.env
+.env.*
+.mcp.json
+.DS_Store
+Thumbs.db
+# Archived evidence/*.txt.gz and results/figures/*.png are intentional assets.

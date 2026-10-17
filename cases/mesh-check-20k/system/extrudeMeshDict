@@ -1,0 +1,38 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2506                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      extrudeMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+constructFrom patch;
+
+sourceCase "./";
+sourcePatches (sideWall1);
+exposedPatchName sideWall2;
+flipNormals true;
+extrudeModel        linearNormal;
+
+nLayers             1;
+
+expansionRatio      1.0;
+
+linearNormalCoeffs
+{
+    thickness       0.01;
+}
+
+mergeFaces false;
+mergeTol 0;
+
+
+// ************************************************************************* //

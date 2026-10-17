@@ -1,0 +1,439 @@
+{
+    "generate-cfd-mesh": {
+        "blunt_te": {
+            "type": "float",
+            "description": "Trailing-edge round percentage expressed as an x/chord trim location. The default 0.01 means the trim starts at x = 0.01 from the trailing edge.",
+            "value": 0.01
+        },
+        "d0": {
+            "type": "float",
+            "description": "First-layer height in meters. Use a negative value to let the wrapper estimate it from `y_plus`, `mach_number`, and `reynolds_number`.",
+            "value": -1.0
+        },
+        "hyperbolic_sweeps": {
+            "type": "int",
+            "description": "Number of smoothing sweeps per layer for hyperbolic extrusion.",
+            "value": 20
+        },
+        "neighbor_rings": {
+            "type": "int",
+            "description": "Neighbor-ring depth used by the hyperbolic extrusion smoother.",
+            "value": 5
+        },
+        "diffuse_start": {
+            "type": "float",
+            "description": "Smoothing onset distance in meters. Hyperbolic diffusion stays off until this marched distance, then starts ramping up.",
+            "value": 0.002
+        },
+        "max_nonorthogonality_pass": {
+            "type": "float",
+            "description": "Pass threshold for maximum non-orthogonality.",
+            "value": 70.0
+        },
+        "max_nonorthogonality_warning": {
+            "type": "float",
+            "description": "Warning threshold for maximum non-orthogonality.",
+            "value": 80.0
+        },
+        "max_aspect_ratio_pass": {
+            "type": "float",
+            "description": "Pass threshold for maximum aspect ratio.",
+            "value": 1000.0
+        },
+        "max_aspect_ratio_warning": {
+            "type": "float",
+            "description": "Warning threshold for maximum aspect ratio.",
+            "value": 5000.0
+        },
+        "max_skewness_pass": {
+            "type": "float",
+            "description": "Pass threshold for maximum skewness.",
+            "value": 4.0
+        },
+        "max_skewness_warning": {
+            "type": "float",
+            "description": "Warning threshold for maximum skewness.",
+            "value": 6.0
+        }
+    },
+    "run-cfd-simulation": {
+        "transonic_mach_boundary": {
+            "type": "float",
+            "description": "Transonic Mach split used by the default solver selection when `solver_name` is not set.",
+            "value": 0.4
+        },
+        "solver_name": {
+            "type": "str",
+            "description": "Explicit solver override. Set this when the user asks for a specific solver. Supported values are `DASimpleFoam` (incompressible), `DARhoSimpleFoam` (compressible), `DARhoSimpleCFoam` (compressible/transonic), and `DAHisaFoam` (compressible/transonic/supersonic). Leave unset, `null`, or `none` to use the default Mach-based selection.",
+            "value": null
+        },
+        "turbulence_model": {
+            "type": "str",
+            "description": "OpenFOAM RANS turbulence model. Supported values are `SpalartAllmaras` (SA) and `kOmegaSST` (SST).",
+            "value": "SpalartAllmaras"
+        },
+        "use_wall_functions": {
+            "type": "str",
+            "description": "Wall-function selection. Use `auto` to choose from mesh settings, `1` to force enable, or `0` to force disable. In auto mode, explicit positive `d0` disables wall functions; otherwise y_plus >= 5 enables them.",
+            "value": "auto"
+        },
+        "max_flow_iters": {
+            "type": "int",
+            "description": "Maximum number of flow iterations written to the case controlDict endTime/writeInterval settings.",
+            "value": 10000
+        },
+        "n_cst_coeffs": {
+            "type": "int",
+            "description": "Number of CST coefficients per surface used when prepare fits CST coefficients. For example, `6` means 6 upper and 6 lower coefficients.",
+            "value": 6
+        },
+        "primal_func_std_tol": {
+            "type": "float",
+            "description": "DAFoam primal function standard deviation tolerance passed to script_run_dafoam.py.",
+            "value": 0.04
+        },
+        "primal_func_slope_tol": {
+            "type": "float",
+            "description": "DAFoam primal function slope tolerance passed to script_run_dafoam.py.",
+            "value": 1e-06
+        },
+        "force_std_pass": {
+            "type": "float",
+            "description": "Pass threshold for raw force-coefficient standard deviation.",
+            "value": 0.0001
+        },
+        "force_std_warning": {
+            "type": "float",
+            "description": "Warning threshold for raw force-coefficient standard deviation.",
+            "value": 0.05
+        },
+        "residual_drop_orders_pass": {
+            "type": "float",
+            "description": "Pass threshold for minimum residual drop in log10 orders.",
+            "value": 6.0
+        },
+        "residual_drop_orders_warning": {
+            "type": "float",
+            "description": "Warning threshold for minimum residual drop in log10 orders.",
+            "value": 3.0
+        },
+        "initialize_from": {
+            "type": "str",
+            "description": "Warm-start lever (off by default). Case name of a previously converged CFD run whose flow field initializes this run instead of a uniform freestream; leave unset (null) for a cold start. Use it to help a hard case converge (high AoA, or a fine low-y+ mesh). The referenced case must have finished before this run.",
+            "value": null
+        },
+        "cp_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": -2.0
+        },
+        "cp_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": 2.0
+        },
+        "u_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": -1.0
+        },
+        "u_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": 1.0
+        }
+    },
+    "run-aero-optimization": {
+        "transonic_mach_boundary": {
+            "type": "float",
+            "description": "Transonic Mach split used by the default solver selection when `solver_name` is not set.",
+            "value": 0.4
+        },
+        "solver_name": {
+            "type": "str",
+            "description": "Explicit solver override. Set this when the user asks for a specific solver. Supported values are `DASimpleFoam` (incompressible), `DARhoSimpleFoam` (compressible), `DARhoSimpleCFoam` (compressible/transonic), and `DAHisaFoam` (compressible/transonic/supersonic). Leave unset, `null`, or `none` to use the default Mach-based selection.",
+            "value": null
+        },
+        "turbulence_model": {
+            "type": "str",
+            "description": "OpenFOAM RANS turbulence model. Supported values are `SpalartAllmaras` (SA) and `kOmegaSST` (SST).",
+            "value": "SpalartAllmaras"
+        },
+        "use_wall_functions": {
+            "type": "str",
+            "description": "Wall-function selection. Use `auto` to choose from mesh settings, `1` to force enable, or `0` to force disable. In auto mode, explicit positive `d0` disables wall functions; otherwise y_plus >= 5 enables them.",
+            "value": "auto"
+        },
+        "max_flow_iters": {
+            "type": "int",
+            "description": "Maximum number of flow iterations written to the case controlDict endTime/writeInterval settings.",
+            "value": 10000
+        },
+        "max_adj_iters": {
+            "type": "int",
+            "description": "Maximum GMRES iterations used by the DAFoam adjoint linear solve.",
+            "value": 1000
+        },
+        "pc_fill_level": {
+            "type": "int",
+            "description": "ILU fill level used by the DAFoam adjoint preconditioner.",
+            "value": 1
+        },
+        "n_cst_coeffs": {
+            "type": "int",
+            "description": "Number of CST coefficients per surface used when prepare fits CST coefficients. For example, `6` means 6 upper and 6 lower coefficients.",
+            "value": 6
+        },
+        "primal_func_std_tol": {
+            "type": "float",
+            "description": "DAFoam primal function standard deviation tolerance passed to script_run_dafoam.py.",
+            "value": 0.04
+        },
+        "primal_func_slope_tol": {
+            "type": "float",
+            "description": "DAFoam primal function slope tolerance passed to script_run_dafoam.py.",
+            "value": 1e-06
+        },
+        "objective_reduction_pct_pass": {
+            "type": "float",
+            "description": "Pass threshold for objective reduction in percent.",
+            "value": 5.0
+        },
+        "objective_reduction_pct_warning": {
+            "type": "float",
+            "description": "Warning threshold for objective reduction in percent.",
+            "value": 1.0
+        },
+        "final_feasibility_pass": {
+            "type": "float",
+            "description": "Pass threshold for final feasibility.",
+            "value": 0.0001
+        },
+        "final_feasibility_warning": {
+            "type": "float",
+            "description": "Warning threshold for final feasibility.",
+            "value": 0.01
+        },
+        "flow_residual_drop_orders_pass": {
+            "type": "float",
+            "description": "Pass threshold for minimum flow residual drop in log10 orders.",
+            "value": 6.0
+        },
+        "flow_residual_drop_orders_warning": {
+            "type": "float",
+            "description": "Warning threshold for minimum flow residual drop in log10 orders.",
+            "value": 3.0
+        },
+        "adjoint_residual_drop_orders_pass": {
+            "type": "float",
+            "description": "Pass threshold for minimum adjoint residual drop in log10 orders.",
+            "value": 5.0
+        },
+        "adjoint_residual_drop_orders_warning": {
+            "type": "float",
+            "description": "Warning threshold for minimum adjoint residual drop in log10 orders.",
+            "value": 3.0
+        },
+        "cp_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": -2.0
+        },
+        "cp_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": 2.0
+        },
+        "u_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": -1.0
+        },
+        "u_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": 1.0
+        }
+    },
+    "run-cfd-simulation-unsteady": {
+        "transonic_mach_boundary": {
+            "type": "float",
+            "description": "Transonic Mach split used by the default solver selection when `solver_name` is not set.",
+            "value": 0.4
+        },
+        "solver_name": {
+            "type": "str",
+            "description": "Explicit solver override. Set this when the user asks for a specific solver. Supported values are `DASimpleFoam` (incompressible), `DARhoSimpleFoam` (compressible), `DARhoSimpleCFoam` (compressible/transonic), and `DAHisaFoam` (compressible/transonic/supersonic). Leave unset, `null`, or `none` to use the default Mach-based selection.",
+            "value": null
+        },
+        "turbulence_model": {
+            "type": "str",
+            "description": "OpenFOAM RANS turbulence model. Supported values are `SpalartAllmaras` (SA) and `kOmegaSST` (SST).",
+            "value": "SpalartAllmaras"
+        },
+        "use_wall_functions": {
+            "type": "str",
+            "description": "Wall-function selection. Use `auto` to choose from mesh settings, `1` to force enable, or `0` to force disable. In auto mode, explicit positive `d0` disables wall functions; otherwise y_plus >= 5 enables them.",
+            "value": "auto"
+        },
+        "force_std_pass": {
+            "type": "float",
+            "description": "Pass threshold for raw force-coefficient standard deviation.",
+            "value": 0.0001
+        },
+        "force_std_warning": {
+            "type": "float",
+            "description": "Warning threshold for raw force-coefficient standard deviation.",
+            "value": 0.05
+        },
+        "cp_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": -2.0
+        },
+        "cp_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": 2.0
+        },
+        "u_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": -1.0
+        },
+        "u_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": 1.0
+        }
+    },
+    "run-multipoint-optimization": {
+        "transonic_mach_boundary": {
+            "type": "float",
+            "description": "Transonic Mach split used by the default solver selection when `solver_name` is not set.",
+            "value": 0.4
+        },
+        "solver_name": {
+            "type": "str",
+            "description": "Explicit solver override. Set this when the user asks for a specific solver. Supported values are `DASimpleFoam` (incompressible), `DARhoSimpleFoam` (compressible), `DARhoSimpleCFoam` (compressible/transonic), and `DAHisaFoam` (compressible/transonic/supersonic). Leave unset, `null`, or `none` to use the default Mach-based selection.",
+            "value": null
+        },
+        "use_wall_functions": {
+            "type": "str",
+            "description": "Wall-function selection. Use `auto` to choose from mesh settings, `1` to force enable, or `0` to force disable. In auto mode, explicit positive `d0` disables wall functions; otherwise y_plus >= 5 enables them.",
+            "value": "auto"
+        },
+        "max_adj_iters": {
+            "type": "int",
+            "description": "Maximum GMRES iterations used by the DAFoam adjoint linear solve.",
+            "value": 1000
+        },
+        "pc_fill_level": {
+            "type": "int",
+            "description": "ILU fill level used by the DAFoam adjoint preconditioner.",
+            "value": 1
+        },
+        "cp_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": -2.0
+        },
+        "cp_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the Cp axis and colorbar shared by the pressure-profile and Cp flow-field plots.",
+            "value": 2.0
+        },
+        "u_plot_lower_bound": {
+            "type": "float",
+            "description": "Lower bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": -1.0
+        },
+        "u_plot_upper_bound": {
+            "type": "float",
+            "description": "Upper bound of the normalized velocity colorbar for the U flow-field plot.",
+            "value": 1.0
+        },
+        "objective_reduction_pct_pass": {
+            "type": "float",
+            "description": "Pass threshold for objective reduction in percent.",
+            "value": 5.0
+        },
+        "objective_reduction_pct_warning": {
+            "type": "float",
+            "description": "Warning threshold for objective reduction in percent.",
+            "value": 1.0
+        },
+        "final_feasibility_pass": {
+            "type": "float",
+            "description": "Pass threshold for final feasibility.",
+            "value": 0.0001
+        },
+        "final_feasibility_warning": {
+            "type": "float",
+            "description": "Warning threshold for final feasibility.",
+            "value": 0.01
+        },
+        "flow_residual_drop_orders_pass": {
+            "type": "float",
+            "description": "Pass threshold for minimum flow residual drop in log10 orders.",
+            "value": 6.0
+        },
+        "flow_residual_drop_orders_warning": {
+            "type": "float",
+            "description": "Warning threshold for minimum flow residual drop in log10 orders.",
+            "value": 3.0
+        },
+        "adjoint_residual_drop_orders_pass": {
+            "type": "float",
+            "description": "Pass threshold for minimum adjoint residual drop in log10 orders.",
+            "value": 5.0
+        },
+        "adjoint_residual_drop_orders_warning": {
+            "type": "float",
+            "description": "Warning threshold for minimum adjoint residual drop in log10 orders.",
+            "value": 3.0
+        }
+    },
+    "run-surrogate-optimization": {
+        "transonic_mach_boundary": {
+            "type": "float",
+            "description": "Transonic Mach split used by the default solver selection when `solver_name` is not set.",
+            "value": 0.4
+        },
+        "solver_name": {
+            "type": "str",
+            "description": "Explicit solver override. Set this when the user asks for a specific solver. Supported values are `DASimpleFoam` (incompressible), `DARhoSimpleFoam` (compressible), `DARhoSimpleCFoam` (compressible/transonic), and `DAHisaFoam` (compressible/transonic/supersonic). Leave unset, `null`, or `none` to use the default Mach-based selection.",
+            "value": null
+        },
+        "use_wall_functions": {
+            "type": "str",
+            "description": "Wall-function selection. Use `auto` to choose from mesh settings, `1` to force enable, or `0` to force disable. In auto mode, explicit positive `d0` disables wall functions; otherwise y_plus >= 5 enables them.",
+            "value": "auto"
+        },
+        "max_flow_iters": {
+            "type": "int",
+            "description": "The max flow iterations.",
+            "value": 3000
+        },
+        "initialize_from": {
+            "type": "str",
+            "description": "Warm-start source case name. When set, the field staged into 0/ is kept instead of resetting to the uniform freestream.",
+            "value": null
+        },
+        "primal_func_std_tol": {
+            "type": "float",
+            "description": "Primal function standard deviation tolerance.",
+            "value": 0.04
+        },
+        "primal_func_slope_tol": {
+            "type": "float",
+            "description": "Primal function slope tolerance.",
+            "value": 1e-06
+        },
+        "n_cpu_cores": {
+            "type": "int",
+            "description": "Number of MPI ranks to use for the optimization run.",
+            "value": 2
+        }
+    }
+}

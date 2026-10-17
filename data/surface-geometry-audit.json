@@ -1,0 +1,28 @@
+{
+  "status": "needs_geometry_verification",
+  "description": "Archived CST baseline face-centroid coordinates have a larger vertical envelope than the input profile; cause not established.",
+  "caution": "Envelope bounds are not a maximum-section-thickness calculation; this is a geometry diagnostic, not a new flow solution.",
+  "coordinate_bounds": {
+    "input-profile": {
+      "count": 200,
+      "min_x": 0.0,
+      "max_x": 1.0,
+      "min_z": -0.1081805614,
+      "max_z": 0.1018332434
+    },
+    "cst-baseline": {
+      "count": 158,
+      "min_x": 0.0004872026128746043,
+      "max_x": 0.991161048412323,
+      "min_z": -0.15871360898017883,
+      "max_z": 0.14617480337619781
+    },
+    "cst-optimized": {
+      "count": 158,
+      "min_x": 0.00017010980558040956,
+      "max_x": 0.9909851551055908,
+      "min_z": -0.12117891013622284,
+      "max_z": 0.13689692318439484
+    }
+  }
+}

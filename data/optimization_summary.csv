@@ -1,0 +1,3 @@
+case,reynolds,mesh_cells,baseline_CD,optimized_CD,baseline_CL,optimized_CL,drag_reduction_percent,ipopt_major_iterations,objective_scale,baseline_primal_solve,final_primal_solve
+case-a-ffd,500000,26522,0.0165730871248,0.016110995636,0.399973625152,0.399996701481,2.78820406472,24,1,5,32
+case-b-cst,2000000,10270,0.0206158180567,0.0160418475794,0.400227422893,0.400016759422,22.1867037474,12,10,5,17

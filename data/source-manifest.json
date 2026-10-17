@@ -1,0 +1,2147 @@
+{
+  "source_root_label": "DaFOAM Project",
+  "case_directory_map": {
+    "S809_Airfoil": "case-a-ffd",
+    "airfoil_opt_s809_re2e6_cl04_0000": "case-b-cst",
+    "airfoil_opt_s809_re2e6_cl04_meshcheck_20k": "mesh-check-20k",
+    "airfoil_opt_s809_re2e6_cl04_meshcheck_40k": "mesh-check-40k",
+    "airfoil_opt_s809_re2e6_cl04_meshcheck_80k": "mesh-check-80k",
+    "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000": "aoa-sweep"
+  },
+  "files": [
+    {
+      "source": "S809_Airfoil/0.orig/nut",
+      "destination": "cases/case-a-ffd/0.orig/nut",
+      "source_sha256": "a684924677334f25007237da8f960177510c447e27d9240936f6fbc0d1e07009",
+      "prepared_sha256": "a684924677334f25007237da8f960177510c447e27d9240936f6fbc0d1e07009",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/0.orig/nuTilda",
+      "destination": "cases/case-a-ffd/0.orig/nuTilda",
+      "source_sha256": "04da2295495c9cf6282b73ba2894421310a556f94c7be5bf4a906f23d401a13f",
+      "prepared_sha256": "04da2295495c9cf6282b73ba2894421310a556f94c7be5bf4a906f23d401a13f",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/0.orig/p",
+      "destination": "cases/case-a-ffd/0.orig/p",
+      "source_sha256": "8a52b27e2cbff47c88dadd27bff7c15b509c61ef31a4065eb27e56cdda0f7f96",
+      "prepared_sha256": "8a52b27e2cbff47c88dadd27bff7c15b509c61ef31a4065eb27e56cdda0f7f96",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/0.orig/U",
+      "destination": "cases/case-a-ffd/0.orig/U",
+      "source_sha256": "b000725528d134a25eb4e6b10d0555e484b39bc4ce5c2a1ec854665d1634f95d",
+      "prepared_sha256": "b000725528d134a25eb4e6b10d0555e484b39bc4ce5c2a1ec854665d1634f95d",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/0/nut",
+      "destination": "cases/case-a-ffd/0/nut",
+      "source_sha256": "a684924677334f25007237da8f960177510c447e27d9240936f6fbc0d1e07009",
+      "prepared_sha256": "a684924677334f25007237da8f960177510c447e27d9240936f6fbc0d1e07009",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/0/nuTilda",
+      "destination": "cases/case-a-ffd/0/nuTilda",
+      "source_sha256": "04da2295495c9cf6282b73ba2894421310a556f94c7be5bf4a906f23d401a13f",
+      "prepared_sha256": "04da2295495c9cf6282b73ba2894421310a556f94c7be5bf4a906f23d401a13f",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/0/p",
+      "destination": "cases/case-a-ffd/0/p",
+      "source_sha256": "8a52b27e2cbff47c88dadd27bff7c15b509c61ef31a4065eb27e56cdda0f7f96",
+      "prepared_sha256": "8a52b27e2cbff47c88dadd27bff7c15b509c61ef31a4065eb27e56cdda0f7f96",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/0/U",
+      "destination": "cases/case-a-ffd/0/U",
+      "source_sha256": "b000725528d134a25eb4e6b10d0555e484b39bc4ce5c2a1ec854665d1634f95d",
+      "prepared_sha256": "b000725528d134a25eb4e6b10d0555e484b39bc4ce5c2a1ec854665d1634f95d",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/constant/transportProperties",
+      "destination": "cases/case-a-ffd/constant/transportProperties",
+      "source_sha256": "52c578b7ca9199c0402de4c32f50a612a51c371e6589ee05d4d1fc410b98224d",
+      "prepared_sha256": "52c578b7ca9199c0402de4c32f50a612a51c371e6589ee05d4d1fc410b98224d",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/constant/turbulenceProperties",
+      "destination": "cases/case-a-ffd/constant/turbulenceProperties",
+      "source_sha256": "6a4bd0eaee9137f693a7d103c8ca8375c2c10dca7e895a4c40ad8f41f9d0d4aa",
+      "prepared_sha256": "6a4bd0eaee9137f693a7d103c8ca8375c2c10dca7e895a4c40ad8f41f9d0d4aa",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/system/blockMeshDict",
+      "destination": "cases/case-a-ffd/system/blockMeshDict",
+      "source_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "prepared_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/system/controlDict",
+      "destination": "cases/case-a-ffd/system/controlDict",
+      "source_sha256": "76eb7dddf79414fafa7270d4a96b782b8eb1b7b4290d15fdbd99fe509248ba43",
+      "prepared_sha256": "76eb7dddf79414fafa7270d4a96b782b8eb1b7b4290d15fdbd99fe509248ba43",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/system/createPatchDict",
+      "destination": "cases/case-a-ffd/system/createPatchDict",
+      "source_sha256": "35219c2a7698b39dd1df9eee8be151b63dcc4a345716a1fd7859983f621ef4e8",
+      "prepared_sha256": "35219c2a7698b39dd1df9eee8be151b63dcc4a345716a1fd7859983f621ef4e8",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/system/decomposeParDict",
+      "destination": "cases/case-a-ffd/system/decomposeParDict",
+      "source_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "prepared_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/system/fvSchemes",
+      "destination": "cases/case-a-ffd/system/fvSchemes",
+      "source_sha256": "d06c14266f335645dfb05b4ccc0a1a34c3cc024636881dda9c77a1d6565fc422",
+      "prepared_sha256": "d06c14266f335645dfb05b4ccc0a1a34c3cc024636881dda9c77a1d6565fc422",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/system/fvSolution",
+      "destination": "cases/case-a-ffd/system/fvSolution",
+      "source_sha256": "490dd6727f70cbcd80c5955437acbc66320761b7a7ef5673b9ccd5e910b16b83",
+      "prepared_sha256": "490dd6727f70cbcd80c5955437acbc66320761b7a7ef5673b9ccd5e910b16b83",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/profiles/process_s809.py",
+      "destination": "cases/case-a-ffd/profiles/process_s809.py",
+      "source_sha256": "e8d165a5ba125a548b28dd573a7a724df9ad7289bb664da3aa6904216a4076e3",
+      "prepared_sha256": "e8d165a5ba125a548b28dd573a7a724df9ad7289bb664da3aa6904216a4076e3",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "S809_Airfoil/profiles/s809.dat",
+      "destination": "cases/case-a-ffd/profiles/s809.dat",
+      "source_sha256": "b6969494ef34941a3060ff6f5fb57792c2706ee36ca716034e87e46ba2e92589",
+      "prepared_sha256": "b6969494ef34941a3060ff6f5fb57792c2706ee36ca716034e87e46ba2e92589",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/profiles/S809PS.profile",
+      "destination": "cases/case-a-ffd/profiles/S809PS.profile",
+      "source_sha256": "55eb8ae4c205b5e692cdba926bef60e6ee55dc09f1fee977d3eab2474803a0c9",
+      "prepared_sha256": "55eb8ae4c205b5e692cdba926bef60e6ee55dc09f1fee977d3eab2474803a0c9",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/profiles/S809SS.profile",
+      "destination": "cases/case-a-ffd/profiles/S809SS.profile",
+      "source_sha256": "e4e351215fa7284a3b8961d22676e58cd72cf9ec82a93c0464ad54f3aa1f8045",
+      "prepared_sha256": "e4e351215fa7284a3b8961d22676e58cd72cf9ec82a93c0464ad54f3aa1f8045",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/FFD/genFFD.py",
+      "destination": "cases/case-a-ffd/FFD/genFFD.py",
+      "source_sha256": "4e6cf92bcec4ddd17cb84ffedb0fa8cc8f10fee2b5370020e68d68fa7a9c4ec4",
+      "prepared_sha256": "4e6cf92bcec4ddd17cb84ffedb0fa8cc8f10fee2b5370020e68d68fa7a9c4ec4",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "S809_Airfoil/FFD/wingFFD.xyz",
+      "destination": "cases/case-a-ffd/FFD/wingFFD.xyz",
+      "source_sha256": "77f651de6209ac24f76a1f79cc9f14224da241b4a1dfab205a6676a7539d34eb",
+      "prepared_sha256": "77f651de6209ac24f76a1f79cc9f14224da241b4a1dfab205a6676a7539d34eb",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/Allclean.sh",
+      "destination": "cases/case-a-ffd/Allclean.sh",
+      "source_sha256": "ebc20161922a1836fb241659f1900b231ea8901a55e02e5d369aee9c03986959",
+      "prepared_sha256": "96506b8b8ce8669fef94aac81e83d563a19dcfc3322b50687eb4f6b0f66d1220",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "S809_Airfoil/genAirFoilMesh.py",
+      "destination": "cases/case-a-ffd/genAirFoilMesh.py",
+      "source_sha256": "b7dae7072a700da858f3e352660a4a2f053e60b8343672c8f4110d88be401064",
+      "prepared_sha256": "b7dae7072a700da858f3e352660a4a2f053e60b8343672c8f4110d88be401064",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "S809_Airfoil/paraview.foam",
+      "destination": "cases/case-a-ffd/paraview.foam",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/plot_results.py",
+      "destination": "cases/case-a-ffd/plot_results.py",
+      "source_sha256": "4de03f49f81af81ad63e97507ddb3b04bd8a7a075ceb88c3abd3111ea3ea7e36",
+      "prepared_sha256": "4de03f49f81af81ad63e97507ddb3b04bd8a7a075ceb88c3abd3111ea3ea7e36",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "S809_Airfoil/preProcessing.sh",
+      "destination": "cases/case-a-ffd/preProcessing.sh",
+      "source_sha256": "0b28c89f758fefd3d449f3dcc4da3f64c3e208702d65f6da19373ad1356dbfe9",
+      "prepared_sha256": "70689d4233cc4fb90c98f7f65677e0ce6b5d6bf85b76036a847866c22dea295b",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "S809_Airfoil/runScript.py",
+      "destination": "cases/case-a-ffd/runScript.py",
+      "source_sha256": "7059c6fff2cbe8414aebc1977f6308301ab8d313b043f673a66b06a4955f43ee",
+      "prepared_sha256": "10a6befd8f130ff57d134e22f9bd9e7acdd6fe57251d726d7f6d48f5698c0fb9",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "S809_Airfoil/logMeshGeneration.txt",
+      "destination": "evidence/case-a-ffd/logMeshGeneration.txt.gz",
+      "source_sha256": "01f5c8fa7d52b5bd3e65760f8d860b20de95d2afdafa9084640a615011843fac",
+      "decompressed_sha256": "01f5c8fa7d52b5bd3e65760f8d860b20de95d2afdafa9084640a615011843fac",
+      "prepared_sha256": "8528b3a5422528cd0290051169884ee7cf92ccffe343e771c51c30b41e97a90c",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "S809_Airfoil/logOpt.txt",
+      "destination": "evidence/case-a-ffd/logOpt.txt.gz",
+      "source_sha256": "7c03976a3081bc68199767b6b295a2ab3a93d19af4256394db1d23447f50d9cb",
+      "decompressed_sha256": "7c03976a3081bc68199767b6b295a2ab3a93d19af4256394db1d23447f50d9cb",
+      "prepared_sha256": "b68030950b185563522fdfab2755e8213cdf9456eb95a914fd285d005175564e",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "S809_Airfoil/logPrimal.txt",
+      "destination": "evidence/case-a-ffd/logPrimal.txt.gz",
+      "source_sha256": "f809c4c541ac865e28f7d095f4b5e9ad50510d314f08a5312da9e2d04270dc86",
+      "decompressed_sha256": "f809c4c541ac865e28f7d095f4b5e9ad50510d314f08a5312da9e2d04270dc86",
+      "prepared_sha256": "1d3ff86883fe5d0dca640733d117df0976b5be0320411156b7ed3256b69a368d",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "S809_Airfoil/opt_IPOPT.txt",
+      "destination": "evidence/case-a-ffd/opt_IPOPT.txt",
+      "source_sha256": "38699b148a053aafae4293e72c3dd2d7c2d0bffc2c5d5e2914e34d603af35fc2",
+      "prepared_sha256": "38699b148a053aafae4293e72c3dd2d7c2d0bffc2c5d5e2914e34d603af35fc2",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/0/epsilon",
+      "destination": "cases/case-b-cst/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/0/k",
+      "destination": "cases/case-b-cst/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/0/nut",
+      "destination": "cases/case-b-cst/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/0/nuTilda",
+      "destination": "cases/case-b-cst/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/0/omega",
+      "destination": "cases/case-b-cst/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/0/p",
+      "destination": "cases/case-b-cst/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/0/U",
+      "destination": "cases/case-b-cst/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/constant/transportProperties",
+      "destination": "cases/case-b-cst/constant/transportProperties",
+      "source_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "prepared_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/constant/turbulenceProperties",
+      "destination": "cases/case-b-cst/constant/turbulenceProperties",
+      "source_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "prepared_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/blockMeshDict",
+      "destination": "cases/case-b-cst/system/blockMeshDict",
+      "source_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "prepared_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/controlDict",
+      "destination": "cases/case-b-cst/system/controlDict",
+      "source_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "prepared_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/createPatchDict",
+      "destination": "cases/case-b-cst/system/createPatchDict",
+      "source_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "prepared_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/decomposeParDict",
+      "destination": "cases/case-b-cst/system/decomposeParDict",
+      "source_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "prepared_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/extrudeMeshDict",
+      "destination": "cases/case-b-cst/system/extrudeMeshDict",
+      "source_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "prepared_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/fvSchemes",
+      "destination": "cases/case-b-cst/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/fvSolution",
+      "destination": "cases/case-b-cst/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/refineMeshDict",
+      "destination": "cases/case-b-cst/system/refineMeshDict",
+      "source_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "prepared_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/system/topoSetDict",
+      "destination": "cases/case-b-cst/system/topoSetDict",
+      "source_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "prepared_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/profiles/README.md",
+      "destination": "cases/case-b-cst/profiles/README.md",
+      "source_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "prepared_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/profiles/s809.dat",
+      "destination": "cases/case-b-cst/profiles/s809.dat",
+      "source_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "prepared_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/.empty_file",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/.empty_file",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/0/epsilon",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/0/k",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/0/nut",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/0/nuTilda",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/0/omega",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/0/p",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/0/U",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/system/fvSchemes",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/options/DASimpleFoam/system/fvSolution",
+      "destination": "cases/case-b-cst/options/DASimpleFoam/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/advanced_parameters.json",
+      "destination": "cases/case-b-cst/advanced_parameters.json",
+      "source_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "prepared_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/airfoil.vsp3",
+      "destination": "cases/case-b-cst/airfoil.vsp3",
+      "source_sha256": "a3f3c49e5e7ddc0a50cf0701e228f27f6413450bfc14f993645eb565c8197c2b",
+      "prepared_sha256": "a3f3c49e5e7ddc0a50cf0701e228f27f6413450bfc14f993645eb565c8197c2b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/airfoil_opt.vsp3",
+      "destination": "cases/case-b-cst/airfoil_opt.vsp3",
+      "source_sha256": "943961d2e6b377a09b48a301c25fc4f93bfa22a53fa42c53e420fb8f3a71f3ff",
+      "prepared_sha256": "943961d2e6b377a09b48a301c25fc4f93bfa22a53fa42c53e420fb8f3a71f3ff",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/Allclean.sh",
+      "destination": "cases/case-b-cst/Allclean.sh",
+      "source_sha256": "f4fb3429448600f875427e2b6bf52483a2a350437e5c7f497ac432423eb67510",
+      "prepared_sha256": "df0c413f83db5f8797bccd98edc7a4a365430b898c69b774a2213608e4842477",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/cst_coeffs.prepare.json",
+      "destination": "cases/case-b-cst/cst_coeffs.prepare.json",
+      "source_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "prepared_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/paraview.foam",
+      "destination": "cases/case-b-cst/paraview.foam",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plot_cp_mesh_convergence.py",
+      "destination": "cases/case-b-cst/plot_cp_mesh_convergence.py",
+      "source_sha256": "9ad2affdb5d0c98aac08c61c4b33fc8d2e5c0a2723de0988d06cf61a0c885911",
+      "prepared_sha256": "0b23b24f059fa8520d4be3dbef4aed53b9ed5e94cd1c96742ad00fe6ec6c1db4",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plot_cp_mesh_convergence_baseline.py",
+      "destination": "cases/case-b-cst/plot_cp_mesh_convergence_baseline.py",
+      "source_sha256": "c098b3a0f40655a67e195cd90d511855286f1bff59b83fa3ed5db39c4a17bd43",
+      "prepared_sha256": "7970409c4e544be8813139cd84c2dc41575b7b2344929dbef58f15418b569a53",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plot_shape_cp_overlay.py",
+      "destination": "cases/case-b-cst/plot_shape_cp_overlay.py",
+      "source_sha256": "44e57771a6772f178caaf66a0450e75798af70f6db10b7ebcdd7693d6e263877",
+      "prepared_sha256": "b89846ffc0da3fae35d409022a83d1eb6838e40cf30b23ef252ec1a52b6e4398",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/prepare_case_local.py",
+      "destination": "cases/case-b-cst/prepare_case_local.py",
+      "source_sha256": "224d4e6beb09cb585883d71aeac09176d342a1693e5fc835360f810940895928",
+      "prepared_sha256": "1785e02c2c2eb41c0c80632c14276c22e6c0769d7b8b35db47bec447347367b1",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/runScript.py",
+      "destination": "cases/case-b-cst/runScript.py",
+      "source_sha256": "a2f5a3d1878f1199330a49b936795530e8e3fd1c911191f313111c78865baaf5",
+      "prepared_sha256": "423d92445cb69fb4165e54454dd9c87e31a9a06180cd9751eef285b1077ad0ac",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/run_opt.sh",
+      "destination": "cases/case-b-cst/run_opt.sh",
+      "source_sha256": "6ba7cbcdafafff9ede960cc83d6311095d9768f6d4390a692b2a51aafe527da3",
+      "prepared_sha256": "83396af625cdd317da6f561e0ba1dd29c3e909d052c82c2e2a703c8402877155",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/script_generate_mesh.py",
+      "destination": "cases/case-b-cst/script_generate_mesh.py",
+      "source_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "prepared_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/script_plot_results.py",
+      "destination": "cases/case-b-cst/script_plot_results.py",
+      "source_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "prepared_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/script_prepare_airfoil.py",
+      "destination": "cases/case-b-cst/script_prepare_airfoil.py",
+      "source_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "prepared_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/script_workflow_helpers.py",
+      "destination": "cases/case-b-cst/script_workflow_helpers.py",
+      "source_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "prepared_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/step1_prepare_airfoil.sh",
+      "destination": "cases/case-b-cst/step1_prepare_airfoil.sh",
+      "source_sha256": "948419dd6d42914beab3e40cad1642299a6dac93d07dadc9196f4e4f5c8bd485",
+      "prepared_sha256": "ca5d000888c5e8dd189e018947d17b30f30585ad3d487df06b809bf399eed214",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/step2_generate_mesh.sh",
+      "destination": "cases/case-b-cst/step2_generate_mesh.sh",
+      "source_sha256": "889eef348d30b5dc5aad15f2e28f248aeaf720a592389ff508db80710cd8910c",
+      "prepared_sha256": "3f79ed65183011c9f7c1dcd406e217aba12d84b58993bacdfff9fd29c15a0e0e",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/step3_prepare_case.sh",
+      "destination": "cases/case-b-cst/step3_prepare_case.sh",
+      "source_sha256": "d8ae358c663037060106f1d1aed70b4a455bd84129b6a740019db0c124b22347",
+      "prepared_sha256": "a8be51ce44f3ec3479f678b2c757980e13340ad7007d9419379a0b353e939f37",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/step5_analyze.sh",
+      "destination": "cases/case-b-cst/step5_analyze.sh",
+      "source_sha256": "656d918677b13ce8642f3eb25973fb05f0784ac70c9bb912f1e6903237c494e2",
+      "prepared_sha256": "a6367a934a4557fd2db71d44e56b9ab810de11e40cf486c47fddc4fc9e888ae8",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/log_mesh.txt",
+      "destination": "evidence/case-b-cst/log_mesh.txt.gz",
+      "source_sha256": "a3056215320ddc303ecfb9de49d74adf5b1ebf03fe6ad201091cca0ef4341115",
+      "decompressed_sha256": "a3056215320ddc303ecfb9de49d74adf5b1ebf03fe6ad201091cca0ef4341115",
+      "prepared_sha256": "82fbb8a700c5ed2da2ebcb34b4844ef87fe7af8adc2d584c547cb86683e1437f",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/log_opt.txt",
+      "destination": "evidence/case-b-cst/log_opt.txt.gz",
+      "source_sha256": "67bfa7e4467f4e6332756db78a9b94c0d703ae4c2c5f7202693a16ac7d444b35",
+      "decompressed_sha256": "67bfa7e4467f4e6332756db78a9b94c0d703ae4c2c5f7202693a16ac7d444b35",
+      "prepared_sha256": "367b69942ef020754b00cffac6be42bba1fa067a2f230668caf208035416747a",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/opt_IPOPT.txt",
+      "destination": "evidence/case-b-cst/opt_IPOPT.txt",
+      "source_sha256": "fc538e9b0be9f03ac771ab30b7905ce21b76cd2d4966ba65080050a750485dfd",
+      "prepared_sha256": "fc538e9b0be9f03ac771ab30b7905ce21b76cd2d4966ba65080050a750485dfd",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/0/epsilon",
+      "destination": "cases/mesh-check-20k/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/0/k",
+      "destination": "cases/mesh-check-20k/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/0/nut",
+      "destination": "cases/mesh-check-20k/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/0/nuTilda",
+      "destination": "cases/mesh-check-20k/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/0/omega",
+      "destination": "cases/mesh-check-20k/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/0/p",
+      "destination": "cases/mesh-check-20k/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/0/U",
+      "destination": "cases/mesh-check-20k/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/constant/transportProperties",
+      "destination": "cases/mesh-check-20k/constant/transportProperties",
+      "source_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "prepared_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/constant/turbulenceProperties",
+      "destination": "cases/mesh-check-20k/constant/turbulenceProperties",
+      "source_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "prepared_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/blockMeshDict",
+      "destination": "cases/mesh-check-20k/system/blockMeshDict",
+      "source_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "prepared_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/controlDict",
+      "destination": "cases/mesh-check-20k/system/controlDict",
+      "source_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "prepared_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/createPatchDict",
+      "destination": "cases/mesh-check-20k/system/createPatchDict",
+      "source_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "prepared_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/decomposeParDict",
+      "destination": "cases/mesh-check-20k/system/decomposeParDict",
+      "source_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "prepared_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/extrudeMeshDict",
+      "destination": "cases/mesh-check-20k/system/extrudeMeshDict",
+      "source_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "prepared_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/fvSchemes",
+      "destination": "cases/mesh-check-20k/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/fvSolution",
+      "destination": "cases/mesh-check-20k/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/refineMeshDict",
+      "destination": "cases/mesh-check-20k/system/refineMeshDict",
+      "source_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "prepared_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/system/topoSetDict",
+      "destination": "cases/mesh-check-20k/system/topoSetDict",
+      "source_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "prepared_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/profiles/README.md",
+      "destination": "cases/mesh-check-20k/profiles/README.md",
+      "source_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "prepared_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/profiles/s809.dat",
+      "destination": "cases/mesh-check-20k/profiles/s809.dat",
+      "source_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "prepared_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/.empty_file",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/.empty_file",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/0/epsilon",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/0/k",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/0/nut",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/0/nuTilda",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/0/omega",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/0/p",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/0/U",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/system/fvSchemes",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/options/DASimpleFoam/system/fvSolution",
+      "destination": "cases/mesh-check-20k/options/DASimpleFoam/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/advanced_parameters.json",
+      "destination": "cases/mesh-check-20k/advanced_parameters.json",
+      "source_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "prepared_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/airfoil.vsp3",
+      "destination": "cases/mesh-check-20k/airfoil.vsp3",
+      "source_sha256": "f4f72ab5e2f6953431562c46bdadbbb0348a90c9ee0d98cf718b1729179a8050",
+      "prepared_sha256": "f4f72ab5e2f6953431562c46bdadbbb0348a90c9ee0d98cf718b1729179a8050",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/Allclean.sh",
+      "destination": "cases/mesh-check-20k/Allclean.sh",
+      "source_sha256": "f4fb3429448600f875427e2b6bf52483a2a350437e5c7f497ac432423eb67510",
+      "prepared_sha256": "df0c413f83db5f8797bccd98edc7a4a365430b898c69b774a2213608e4842477",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/baseline_cp_eval.py",
+      "destination": "cases/mesh-check-20k/baseline_cp_eval.py",
+      "source_sha256": "463bfced6e35b6ca84204226fff06c274b3958f2b0f0a8c204c771df2952be76",
+      "prepared_sha256": "7dd0854039770dacf15611c10178aeef957fb1d06fc7feccc5eef8fba882214b",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/cst_coeffs.prepare.json",
+      "destination": "cases/mesh-check-20k/cst_coeffs.prepare.json",
+      "source_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "prepared_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/mesh_sensitivity_check.py",
+      "destination": "cases/mesh-check-20k/mesh_sensitivity_check.py",
+      "source_sha256": "c11649584b9804726801f022295835d5091e0b4f2f52dfd2acb46be26a3f2aac",
+      "prepared_sha256": "2ea733ccff133de9bf6719f6efa11412fab8b0a12752aae5a5dfd8004d0c01f2",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/paraview.foam",
+      "destination": "cases/mesh-check-20k/paraview.foam",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/prepare_case_local.py",
+      "destination": "cases/mesh-check-20k/prepare_case_local.py",
+      "source_sha256": "224d4e6beb09cb585883d71aeac09176d342a1693e5fc835360f810940895928",
+      "prepared_sha256": "1785e02c2c2eb41c0c80632c14276c22e6c0769d7b8b35db47bec447347367b1",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/run_baseline_eval.sh",
+      "destination": "cases/mesh-check-20k/run_baseline_eval.sh",
+      "source_sha256": "0604cf04e1634f8e5fc33b775d18fa130cad1ef5e462496ffe0df109d7acb7df",
+      "prepared_sha256": "9cae75be84c8636f800fc8350f232111335f0dc3142d72db3b2ab4b6a0b6e39a",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/run_check.sh",
+      "destination": "cases/mesh-check-20k/run_check.sh",
+      "source_sha256": "a9d3407757a1c14e73669e96ed6cabc8774251737e7630e0b61fe18b841c77f8",
+      "prepared_sha256": "b48fdd82390aaac74e0bead4f7063b814780da3fb4bf1dc99a93bafdf2a816d8",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/script_generate_mesh.py",
+      "destination": "cases/mesh-check-20k/script_generate_mesh.py",
+      "source_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "prepared_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/script_plot_results.py",
+      "destination": "cases/mesh-check-20k/script_plot_results.py",
+      "source_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "prepared_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/script_prepare_airfoil.py",
+      "destination": "cases/mesh-check-20k/script_prepare_airfoil.py",
+      "source_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "prepared_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/script_workflow_helpers.py",
+      "destination": "cases/mesh-check-20k/script_workflow_helpers.py",
+      "source_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "prepared_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/step1_prepare_airfoil.sh",
+      "destination": "cases/mesh-check-20k/step1_prepare_airfoil.sh",
+      "source_sha256": "948419dd6d42914beab3e40cad1642299a6dac93d07dadc9196f4e4f5c8bd485",
+      "prepared_sha256": "ca5d000888c5e8dd189e018947d17b30f30585ad3d487df06b809bf399eed214",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/step2_generate_mesh.sh",
+      "destination": "cases/mesh-check-20k/step2_generate_mesh.sh",
+      "source_sha256": "5177369eb5ce6d00d0b1afa18bad6b19b84494c9f6846d2d799ac7bafa1b4a5e",
+      "prepared_sha256": "b5771cf059e7c666659cf85124dc61246034b0f23ef94e1a7931b20222b959cc",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/step3_prepare_case.sh",
+      "destination": "cases/mesh-check-20k/step3_prepare_case.sh",
+      "source_sha256": "990e8edcd29dbd707ebcc3988c6916a887b2a0bb02b7f66ae398c277613cf3ea",
+      "prepared_sha256": "7c7c5d803e2018a8fcfec2d58e311f088592661b84f01684d429a8418f8e75df",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/log_baseline_eval.txt",
+      "destination": "evidence/mesh-check-20k/log_baseline_eval.txt.gz",
+      "source_sha256": "bebaa9e36e9e679629c79f253bf9572fd5abc14e5a2e0fd231ec87abc0fc23ea",
+      "decompressed_sha256": "bebaa9e36e9e679629c79f253bf9572fd5abc14e5a2e0fd231ec87abc0fc23ea",
+      "prepared_sha256": "b1bc18199d8f96c07956b73e60166a1e77db63acda47545d488aa13b5ad5d8b6",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/log_mesh.txt",
+      "destination": "evidence/mesh-check-20k/log_mesh.txt.gz",
+      "source_sha256": "983c8f6d58c8fe81e9f118d67528e3af322429068e6ee8b2526d6ace4b230b68",
+      "decompressed_sha256": "983c8f6d58c8fe81e9f118d67528e3af322429068e6ee8b2526d6ace4b230b68",
+      "prepared_sha256": "a1d4f8e9682d417d9aecb08c2bcf4608e9ee392d832a4b70e250e88fccc3de6f",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/log_meshcheck.txt",
+      "destination": "evidence/mesh-check-20k/log_meshcheck.txt.gz",
+      "source_sha256": "101c2c3a280750c199571cd6dcec963ec95d3032c370f537b6717a6fa28e71b2",
+      "decompressed_sha256": "101c2c3a280750c199571cd6dcec963ec95d3032c370f537b6717a6fa28e71b2",
+      "prepared_sha256": "847010e41d42791688d2f3d234709c5cd61471bb7110416c6f9d1cb9a0651d58",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_20k/log_vtk_export.txt",
+      "destination": "evidence/mesh-check-20k/log_vtk_export.txt.gz",
+      "source_sha256": "ab280f07dcf005dc54b69527ec14136da261db9f049894e0dfe93b9cf375745a",
+      "decompressed_sha256": "ab280f07dcf005dc54b69527ec14136da261db9f049894e0dfe93b9cf375745a",
+      "prepared_sha256": "4dec85f81ae8c5cb4507cb434d028e95a00785665fb5e4bccb87fcf00891f80c",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/0/epsilon",
+      "destination": "cases/mesh-check-40k/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/0/k",
+      "destination": "cases/mesh-check-40k/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/0/nut",
+      "destination": "cases/mesh-check-40k/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/0/nuTilda",
+      "destination": "cases/mesh-check-40k/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/0/omega",
+      "destination": "cases/mesh-check-40k/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/0/p",
+      "destination": "cases/mesh-check-40k/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/0/U",
+      "destination": "cases/mesh-check-40k/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/constant/transportProperties",
+      "destination": "cases/mesh-check-40k/constant/transportProperties",
+      "source_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "prepared_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/constant/turbulenceProperties",
+      "destination": "cases/mesh-check-40k/constant/turbulenceProperties",
+      "source_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "prepared_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/blockMeshDict",
+      "destination": "cases/mesh-check-40k/system/blockMeshDict",
+      "source_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "prepared_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/controlDict",
+      "destination": "cases/mesh-check-40k/system/controlDict",
+      "source_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "prepared_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/createPatchDict",
+      "destination": "cases/mesh-check-40k/system/createPatchDict",
+      "source_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "prepared_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/decomposeParDict",
+      "destination": "cases/mesh-check-40k/system/decomposeParDict",
+      "source_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "prepared_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/extrudeMeshDict",
+      "destination": "cases/mesh-check-40k/system/extrudeMeshDict",
+      "source_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "prepared_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/fvSchemes",
+      "destination": "cases/mesh-check-40k/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/fvSolution",
+      "destination": "cases/mesh-check-40k/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/refineMeshDict",
+      "destination": "cases/mesh-check-40k/system/refineMeshDict",
+      "source_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "prepared_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/system/topoSetDict",
+      "destination": "cases/mesh-check-40k/system/topoSetDict",
+      "source_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "prepared_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/profiles/README.md",
+      "destination": "cases/mesh-check-40k/profiles/README.md",
+      "source_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "prepared_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/profiles/s809.dat",
+      "destination": "cases/mesh-check-40k/profiles/s809.dat",
+      "source_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "prepared_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/.empty_file",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/.empty_file",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/0/epsilon",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/0/k",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/0/nut",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/0/nuTilda",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/0/omega",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/0/p",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/0/U",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/system/fvSchemes",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/options/DASimpleFoam/system/fvSolution",
+      "destination": "cases/mesh-check-40k/options/DASimpleFoam/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/advanced_parameters.json",
+      "destination": "cases/mesh-check-40k/advanced_parameters.json",
+      "source_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "prepared_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/airfoil.vsp3",
+      "destination": "cases/mesh-check-40k/airfoil.vsp3",
+      "source_sha256": "73ce4c5d05d2272dcda623b87d6cb4045bd0d5aad5d8f1d212edeb818e2301dd",
+      "prepared_sha256": "73ce4c5d05d2272dcda623b87d6cb4045bd0d5aad5d8f1d212edeb818e2301dd",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/Allclean.sh",
+      "destination": "cases/mesh-check-40k/Allclean.sh",
+      "source_sha256": "f4fb3429448600f875427e2b6bf52483a2a350437e5c7f497ac432423eb67510",
+      "prepared_sha256": "df0c413f83db5f8797bccd98edc7a4a365430b898c69b774a2213608e4842477",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/baseline_cp_eval.py",
+      "destination": "cases/mesh-check-40k/baseline_cp_eval.py",
+      "source_sha256": "d2494f1f32a2fcf1c1d548740b7bce3e8399885373852826eddc3500817e6219",
+      "prepared_sha256": "99e45a001ebaf405b90ebe4fc3a612c19722401f9b8714afe42e03fa061fbad7",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/cst_coeffs.prepare.json",
+      "destination": "cases/mesh-check-40k/cst_coeffs.prepare.json",
+      "source_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "prepared_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/mesh_sensitivity_check.py",
+      "destination": "cases/mesh-check-40k/mesh_sensitivity_check.py",
+      "source_sha256": "ae2dbfaa3ffd3fe408811118000dae3fc159a7fc62086ab9b32228f167a71d63",
+      "prepared_sha256": "048c8f938e44c60542164bc7762cb9f37a702a956e0e74e9bf1d79dd1b9770bb",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/paraview.foam",
+      "destination": "cases/mesh-check-40k/paraview.foam",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/prepare_case_local.py",
+      "destination": "cases/mesh-check-40k/prepare_case_local.py",
+      "source_sha256": "224d4e6beb09cb585883d71aeac09176d342a1693e5fc835360f810940895928",
+      "prepared_sha256": "1785e02c2c2eb41c0c80632c14276c22e6c0769d7b8b35db47bec447347367b1",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/run_baseline_eval.sh",
+      "destination": "cases/mesh-check-40k/run_baseline_eval.sh",
+      "source_sha256": "ac4c19032b75780dc845d7b5fe215bcaf32a099a2a7260fcfd8ff6b01efe1805",
+      "prepared_sha256": "ad6df11fe8fa03e28fa82e989c039481a1f22448dc9416fc7bcc526303e5a785",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/run_check.sh",
+      "destination": "cases/mesh-check-40k/run_check.sh",
+      "source_sha256": "cabff063fca5ac6e4927025f802b993823f40e0e3374251701bd259378878f45",
+      "prepared_sha256": "ab0528e1ae6318dce70628c1d655146a21fd613bc1f3b0d29e7a8e9512618895",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/script_generate_mesh.py",
+      "destination": "cases/mesh-check-40k/script_generate_mesh.py",
+      "source_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "prepared_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/script_plot_results.py",
+      "destination": "cases/mesh-check-40k/script_plot_results.py",
+      "source_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "prepared_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/script_prepare_airfoil.py",
+      "destination": "cases/mesh-check-40k/script_prepare_airfoil.py",
+      "source_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "prepared_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/script_workflow_helpers.py",
+      "destination": "cases/mesh-check-40k/script_workflow_helpers.py",
+      "source_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "prepared_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/step1_prepare_airfoil.sh",
+      "destination": "cases/mesh-check-40k/step1_prepare_airfoil.sh",
+      "source_sha256": "948419dd6d42914beab3e40cad1642299a6dac93d07dadc9196f4e4f5c8bd485",
+      "prepared_sha256": "ca5d000888c5e8dd189e018947d17b30f30585ad3d487df06b809bf399eed214",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/step2_generate_mesh.sh",
+      "destination": "cases/mesh-check-40k/step2_generate_mesh.sh",
+      "source_sha256": "a3bd535a0ca15ed5155155cd8eea009022482f43e9298e9befef565109af6885",
+      "prepared_sha256": "0e9a8b2a700395d47dd687764a9e09e0624e60c978285ecd78079eef9b26d4cf",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/step3_prepare_case.sh",
+      "destination": "cases/mesh-check-40k/step3_prepare_case.sh",
+      "source_sha256": "990e8edcd29dbd707ebcc3988c6916a887b2a0bb02b7f66ae398c277613cf3ea",
+      "prepared_sha256": "7c7c5d803e2018a8fcfec2d58e311f088592661b84f01684d429a8418f8e75df",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/log_baseline_eval.txt",
+      "destination": "evidence/mesh-check-40k/log_baseline_eval.txt.gz",
+      "source_sha256": "8ffc3f550ff49da155bc084fd71bf28965a88665718704babf37a8446d783a83",
+      "decompressed_sha256": "8ffc3f550ff49da155bc084fd71bf28965a88665718704babf37a8446d783a83",
+      "prepared_sha256": "cd6dd552f70203f3ca3d2fde3da16f59d65877068696949cdcefb658759c0737",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/log_mesh.txt",
+      "destination": "evidence/mesh-check-40k/log_mesh.txt.gz",
+      "source_sha256": "382576f5c975b28c18f33bdcf32c6f3890825387679d9dc55ea56eccc8226d69",
+      "decompressed_sha256": "382576f5c975b28c18f33bdcf32c6f3890825387679d9dc55ea56eccc8226d69",
+      "prepared_sha256": "c2e5de3441dc41dc9ab51a4268d23b129d2747d992df411acaf4d54139e12c21",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/log_meshcheck.txt",
+      "destination": "evidence/mesh-check-40k/log_meshcheck.txt.gz",
+      "source_sha256": "ea8a64fea6043ed371772d688cf14488c6760c8b38d97f12eb8db56550c8700a",
+      "decompressed_sha256": "ea8a64fea6043ed371772d688cf14488c6760c8b38d97f12eb8db56550c8700a",
+      "prepared_sha256": "92cb6670c739556be483f1dce1829d34f17b8d97dcd97bbb193943c87191ad38",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_40k/log_vtk_export.txt",
+      "destination": "evidence/mesh-check-40k/log_vtk_export.txt.gz",
+      "source_sha256": "75266e4b02ea199befe5bc904b6146f14c11191d71ea0f83c2d4f5869ef5b3ea",
+      "decompressed_sha256": "75266e4b02ea199befe5bc904b6146f14c11191d71ea0f83c2d4f5869ef5b3ea",
+      "prepared_sha256": "cf949646c4e55ce876c953adb1b5f4024bb8ecc3058ff78736e29a3e1a097526",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/0/epsilon",
+      "destination": "cases/mesh-check-80k/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/0/k",
+      "destination": "cases/mesh-check-80k/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/0/nut",
+      "destination": "cases/mesh-check-80k/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/0/nuTilda",
+      "destination": "cases/mesh-check-80k/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/0/omega",
+      "destination": "cases/mesh-check-80k/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/0/p",
+      "destination": "cases/mesh-check-80k/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/0/U",
+      "destination": "cases/mesh-check-80k/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/constant/transportProperties",
+      "destination": "cases/mesh-check-80k/constant/transportProperties",
+      "source_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "prepared_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/constant/turbulenceProperties",
+      "destination": "cases/mesh-check-80k/constant/turbulenceProperties",
+      "source_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "prepared_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/blockMeshDict",
+      "destination": "cases/mesh-check-80k/system/blockMeshDict",
+      "source_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "prepared_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/controlDict",
+      "destination": "cases/mesh-check-80k/system/controlDict",
+      "source_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "prepared_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/createPatchDict",
+      "destination": "cases/mesh-check-80k/system/createPatchDict",
+      "source_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "prepared_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/decomposeParDict",
+      "destination": "cases/mesh-check-80k/system/decomposeParDict",
+      "source_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "prepared_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/extrudeMeshDict",
+      "destination": "cases/mesh-check-80k/system/extrudeMeshDict",
+      "source_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "prepared_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/fvSchemes",
+      "destination": "cases/mesh-check-80k/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/fvSolution",
+      "destination": "cases/mesh-check-80k/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/refineMeshDict",
+      "destination": "cases/mesh-check-80k/system/refineMeshDict",
+      "source_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "prepared_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/system/topoSetDict",
+      "destination": "cases/mesh-check-80k/system/topoSetDict",
+      "source_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "prepared_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/profiles/README.md",
+      "destination": "cases/mesh-check-80k/profiles/README.md",
+      "source_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "prepared_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/profiles/s809.dat",
+      "destination": "cases/mesh-check-80k/profiles/s809.dat",
+      "source_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "prepared_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/.empty_file",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/.empty_file",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/0/epsilon",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/0/k",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/0/nut",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/0/nuTilda",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/0/omega",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/0/p",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/0/U",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/system/fvSchemes",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/options/DASimpleFoam/system/fvSolution",
+      "destination": "cases/mesh-check-80k/options/DASimpleFoam/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/advanced_parameters.json",
+      "destination": "cases/mesh-check-80k/advanced_parameters.json",
+      "source_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "prepared_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/airfoil.vsp3",
+      "destination": "cases/mesh-check-80k/airfoil.vsp3",
+      "source_sha256": "a2496a6c627be10cad355595420a571f9861c5afd2326b8aeadfa5416bf50f70",
+      "prepared_sha256": "a2496a6c627be10cad355595420a571f9861c5afd2326b8aeadfa5416bf50f70",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/Allclean.sh",
+      "destination": "cases/mesh-check-80k/Allclean.sh",
+      "source_sha256": "f4fb3429448600f875427e2b6bf52483a2a350437e5c7f497ac432423eb67510",
+      "prepared_sha256": "df0c413f83db5f8797bccd98edc7a4a365430b898c69b774a2213608e4842477",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/baseline_cp_eval.py",
+      "destination": "cases/mesh-check-80k/baseline_cp_eval.py",
+      "source_sha256": "c78be872ed8621716bf59a0bf3b92fdd3dc289bf81f93d9157d612a9a05cb5aa",
+      "prepared_sha256": "060e9252155619a62f3d528f68a559fcc826226ac63c47a45c623d8e21bdee7c",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/cst_coeffs.prepare.json",
+      "destination": "cases/mesh-check-80k/cst_coeffs.prepare.json",
+      "source_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "prepared_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/mesh_convergence_4pt.py",
+      "destination": "cases/mesh-check-80k/mesh_convergence_4pt.py",
+      "source_sha256": "39ccaa15124a15e55ed4ee84b48915348a4fa3b25dc6da6014952321c195a760",
+      "prepared_sha256": "39ccaa15124a15e55ed4ee84b48915348a4fa3b25dc6da6014952321c195a760",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/mesh_sensitivity_check.py",
+      "destination": "cases/mesh-check-80k/mesh_sensitivity_check.py",
+      "source_sha256": "c86fbf502bd79d591efd99086e65ac178fc9c89459e2e9ff8f622de3a6928105",
+      "prepared_sha256": "567c7c785b643b8ba65e99f4e2488f553afc01092a0e370e69e73a850da2dc6d",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/paraview.foam",
+      "destination": "cases/mesh-check-80k/paraview.foam",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/prepare_case_local.py",
+      "destination": "cases/mesh-check-80k/prepare_case_local.py",
+      "source_sha256": "224d4e6beb09cb585883d71aeac09176d342a1693e5fc835360f810940895928",
+      "prepared_sha256": "1785e02c2c2eb41c0c80632c14276c22e6c0769d7b8b35db47bec447347367b1",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/run_baseline_eval.sh",
+      "destination": "cases/mesh-check-80k/run_baseline_eval.sh",
+      "source_sha256": "d9fccec4beb66e7dc39d31c9fda3979f00b67e83c5f083e774a3dc36b8804b8a",
+      "prepared_sha256": "6bc29812dcfb235c70ad267e9cbe0521b70f53a0f3593e4607498cdc887914fe",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/run_check.sh",
+      "destination": "cases/mesh-check-80k/run_check.sh",
+      "source_sha256": "c3d18b7463ee3b6a569a77a50762a876cbc0cf010e4a5224b6d9b0369abb3e39",
+      "prepared_sha256": "e53c61b0f5708321b4e8633069f74de44866845796bc47f203e079125bd4ab75",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/script_generate_mesh.py",
+      "destination": "cases/mesh-check-80k/script_generate_mesh.py",
+      "source_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "prepared_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/script_plot_results.py",
+      "destination": "cases/mesh-check-80k/script_plot_results.py",
+      "source_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "prepared_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/script_prepare_airfoil.py",
+      "destination": "cases/mesh-check-80k/script_prepare_airfoil.py",
+      "source_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "prepared_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/script_workflow_helpers.py",
+      "destination": "cases/mesh-check-80k/script_workflow_helpers.py",
+      "source_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "prepared_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/step1_prepare_airfoil.sh",
+      "destination": "cases/mesh-check-80k/step1_prepare_airfoil.sh",
+      "source_sha256": "948419dd6d42914beab3e40cad1642299a6dac93d07dadc9196f4e4f5c8bd485",
+      "prepared_sha256": "ca5d000888c5e8dd189e018947d17b30f30585ad3d487df06b809bf399eed214",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/step2_generate_mesh.sh",
+      "destination": "cases/mesh-check-80k/step2_generate_mesh.sh",
+      "source_sha256": "7594338413c4b81fbef0f8ee47f47c33688f79e4d41d3ae5cc8e4c156bf2130c",
+      "prepared_sha256": "8639345712938c61a8339f3c3e4c71f444fa48afaf17f33e42eb924f66b81a24",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/step3_prepare_case.sh",
+      "destination": "cases/mesh-check-80k/step3_prepare_case.sh",
+      "source_sha256": "990e8edcd29dbd707ebcc3988c6916a887b2a0bb02b7f66ae398c277613cf3ea",
+      "prepared_sha256": "7c7c5d803e2018a8fcfec2d58e311f088592661b84f01684d429a8418f8e75df",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/log_baseline_eval.txt",
+      "destination": "evidence/mesh-check-80k/log_baseline_eval.txt.gz",
+      "source_sha256": "667ef3adf292f785e62d07b3b481a60df84e42cb652ea13a39a95877f283d4e8",
+      "decompressed_sha256": "667ef3adf292f785e62d07b3b481a60df84e42cb652ea13a39a95877f283d4e8",
+      "prepared_sha256": "7b5ceee27864ace30e7d8b987db9e919526ea95218d84a3befbf9c85633bec0b",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/log_mesh.txt",
+      "destination": "evidence/mesh-check-80k/log_mesh.txt.gz",
+      "source_sha256": "b3f7b7d82b36f2ffd9f1a58371952a3b708d685ce3611d3cb7dc021332e2e7b0",
+      "decompressed_sha256": "b3f7b7d82b36f2ffd9f1a58371952a3b708d685ce3611d3cb7dc021332e2e7b0",
+      "prepared_sha256": "e3212f8eb5e904dcef7dae96118e01b5ba582ac20d0f6c97f09ca0f91bc483d8",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/log_meshcheck.txt",
+      "destination": "evidence/mesh-check-80k/log_meshcheck.txt.gz",
+      "source_sha256": "7337a2d34ca44bec494586cca6b52db72073743b7595456be849e05c7476aaf8",
+      "decompressed_sha256": "7337a2d34ca44bec494586cca6b52db72073743b7595456be849e05c7476aaf8",
+      "prepared_sha256": "53be5e7705c031e4ee148d95632302813f2a0810367e87ef9b6fffefaa86212d",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_meshcheck_80k/log_vtk_export.txt",
+      "destination": "evidence/mesh-check-80k/log_vtk_export.txt.gz",
+      "source_sha256": "c86024e44a0b0e4c4225bac580c7a227e9c09173f9adf97bd80cc75be0eed807",
+      "decompressed_sha256": "c86024e44a0b0e4c4225bac580c7a227e9c09173f9adf97bd80cc75be0eed807",
+      "prepared_sha256": "2613fe088b362b6e45f7f2d4ab81920e9e41848ab9a94293df8461716b9f9996",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/0/epsilon",
+      "destination": "cases/aoa-sweep/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/0/k",
+      "destination": "cases/aoa-sweep/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/0/nut",
+      "destination": "cases/aoa-sweep/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/0/nuTilda",
+      "destination": "cases/aoa-sweep/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/0/omega",
+      "destination": "cases/aoa-sweep/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/0/p",
+      "destination": "cases/aoa-sweep/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/0/U",
+      "destination": "cases/aoa-sweep/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/constant/transportProperties",
+      "destination": "cases/aoa-sweep/constant/transportProperties",
+      "source_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "prepared_sha256": "1fef188c2bb9c94bd332c630ea48024552fcea6f481df41b48c603ff94477a94",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/constant/turbulenceProperties",
+      "destination": "cases/aoa-sweep/constant/turbulenceProperties",
+      "source_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "prepared_sha256": "a7f4a867ff32c509b03e93bcc8d66436965cf6083f233f5dbd7d51f695072ccf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/blockMeshDict",
+      "destination": "cases/aoa-sweep/system/blockMeshDict",
+      "source_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "prepared_sha256": "5dac66f6ae8399c6145721ba1afde3693bc480cfa88851cb9b16c199e17c482f",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/controlDict",
+      "destination": "cases/aoa-sweep/system/controlDict",
+      "source_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "prepared_sha256": "af05aefe9ea84d91859486e06e5eea3c758e364191ba6db2bb1f402ae2359c73",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/createPatchDict",
+      "destination": "cases/aoa-sweep/system/createPatchDict",
+      "source_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "prepared_sha256": "044ce820d53d0dc2a8a5af99621e457d497b7a9713787249dc2863c06b022003",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/decomposeParDict",
+      "destination": "cases/aoa-sweep/system/decomposeParDict",
+      "source_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "prepared_sha256": "ffcb75e5bbb104edc504593913d78682fe331a4aea740c7904f24ae262a26ccd",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/extrudeMeshDict",
+      "destination": "cases/aoa-sweep/system/extrudeMeshDict",
+      "source_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "prepared_sha256": "907d16f78c2c913f0390e87e6748932fae93b478fb0f767b76eeaca1ba88aaf7",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/fvSchemes",
+      "destination": "cases/aoa-sweep/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/fvSolution",
+      "destination": "cases/aoa-sweep/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/refineMeshDict",
+      "destination": "cases/aoa-sweep/system/refineMeshDict",
+      "source_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "prepared_sha256": "9647abcdc237b6a2ad4bf03e6153bd914bd8158debf7398009ba5df5bedc1fcf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/system/topoSetDict",
+      "destination": "cases/aoa-sweep/system/topoSetDict",
+      "source_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "prepared_sha256": "f81d9f9d4ce4474acf76cd189d0386bc6f7007b98129852380f040a6ccaaaa26",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/profiles/README.md",
+      "destination": "cases/aoa-sweep/profiles/README.md",
+      "source_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "prepared_sha256": "a96ebb5d4c9a85af0d0686423739eae87ff485fc1af0d0368334eb983aea0eb2",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/profiles/s809.dat",
+      "destination": "cases/aoa-sweep/profiles/s809.dat",
+      "source_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "prepared_sha256": "32b0098f9835409629b56ccb8460edbac11c4291333d67b6230800d1fdb3f387",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/.empty_file",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/.empty_file",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/0/epsilon",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/0/epsilon",
+      "source_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "prepared_sha256": "e5ee434822cf8d3f4919470859b51624d94a108b3e6b1916d5018c7730440300",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/0/k",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/0/k",
+      "source_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "prepared_sha256": "c74a41b42eb3c7248a75a23da6107f1b96f9a220584021647e8f82dd26097527",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/0/nut",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/0/nut",
+      "source_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "prepared_sha256": "b86054997b339d448702fa5cdfc64078d61beddbba84bd0f28030186cb8e624b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/0/nuTilda",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/0/nuTilda",
+      "source_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "prepared_sha256": "c871448192e073e830654587f2bc68137b559bd3246d4b35549fedd078248da6",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/0/omega",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/0/omega",
+      "source_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "prepared_sha256": "22643dee2813af614534d32aa1d171f8eb6668391186a9d65145ce27f6fcf486",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/0/p",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/0/p",
+      "source_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "prepared_sha256": "e8c04af7ce445b9952fba35e4431f794f9e2486a87e3f2948cafbe620dd61428",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/0/U",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/0/U",
+      "source_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "prepared_sha256": "25dd3cf28d551ece677bd5a13c2cd57d373b04c85e506ee27c0cc3c5935198bb",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/system/fvSchemes",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/system/fvSchemes",
+      "source_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "prepared_sha256": "4ad45b744cf038ebc0919ede830fc8d0a2bf64e4193c9fc490e36f981a0c582d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/options/DASimpleFoam/system/fvSolution",
+      "destination": "cases/aoa-sweep/options/DASimpleFoam/system/fvSolution",
+      "source_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "prepared_sha256": "e469352c25fa12ded642aba1cdc5f14293a3ccedcd2f58ecc55f80d6fd4b380b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/advanced_parameters.json",
+      "destination": "cases/aoa-sweep/advanced_parameters.json",
+      "source_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "prepared_sha256": "8d924f93d751574dad8da3e5abb6bb8b7d2ce32b3d87eb041eb8ab93b56f232e",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/airfoil.vsp3",
+      "destination": "cases/aoa-sweep/airfoil.vsp3",
+      "source_sha256": "b8b4b2b699a5d50a6a7a3774f7dc4d826fe09d658a6685f2d2d69bae6751d10b",
+      "prepared_sha256": "b8b4b2b699a5d50a6a7a3774f7dc4d826fe09d658a6685f2d2d69bae6751d10b",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/Allclean.sh",
+      "destination": "cases/aoa-sweep/Allclean.sh",
+      "source_sha256": "f4fb3429448600f875427e2b6bf52483a2a350437e5c7f497ac432423eb67510",
+      "prepared_sha256": "df0c413f83db5f8797bccd98edc7a4a365430b898c69b774a2213608e4842477",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/aoa_sweep.py",
+      "destination": "cases/aoa-sweep/aoa_sweep.py",
+      "source_sha256": "68c4a53979161a2658d51cceb7186e62b6cbc97cd0b090f341b7aa59565238cb",
+      "prepared_sha256": "a37488c7944ec23fd7ea8594816221750809453c4a78dbd73609d554aa9885c4",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/baseline_cp_eval.py",
+      "destination": "cases/aoa-sweep/baseline_cp_eval.py",
+      "source_sha256": "795a9b2f47f815c0025eee65fbeabdf88226288f68932c246c1d19c1c2000fdb",
+      "prepared_sha256": "a760b011ba389eae2933160c3f34f0ab333a6b9f3bf07667d80db58a2238be32",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/cst_coeffs.prepare.json",
+      "destination": "cases/aoa-sweep/cst_coeffs.prepare.json",
+      "source_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "prepared_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/paraview.foam",
+      "destination": "cases/aoa-sweep/paraview.foam",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "prepared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/plot_aoa_sweep.py",
+      "destination": "cases/aoa-sweep/plot_aoa_sweep.py",
+      "source_sha256": "c5735894a0d3e7717805120d78e5c54971a8d7c600ec0e8df896bd0b51cf21b5",
+      "prepared_sha256": "c5735894a0d3e7717805120d78e5c54971a8d7c600ec0e8df896bd0b51cf21b5",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/prepare_case_local.py",
+      "destination": "cases/aoa-sweep/prepare_case_local.py",
+      "source_sha256": "224d4e6beb09cb585883d71aeac09176d342a1693e5fc835360f810940895928",
+      "prepared_sha256": "1785e02c2c2eb41c0c80632c14276c22e6c0769d7b8b35db47bec447347367b1",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/run_baseline_eval.sh",
+      "destination": "cases/aoa-sweep/run_baseline_eval.sh",
+      "source_sha256": "f13c65369c326f396e9bb556a03602a8b18dfe60370004a35af36d88bb703cdf",
+      "prepared_sha256": "b31b497d4c08d341ac733656fac0bc4e48f7a70a352ef91581501b6be216500b",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/run_sweep.sh",
+      "destination": "cases/aoa-sweep/run_sweep.sh",
+      "source_sha256": "45d40e3f26cc66134a7bdb08b45b700a47708f42bc9e2573f29287fa374b9b65",
+      "prepared_sha256": "cea5d9d8d6cc9590812726cf223cd76ee31e57f78c71db1e6c0bc359712475c4",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/script_generate_mesh.py",
+      "destination": "cases/aoa-sweep/script_generate_mesh.py",
+      "source_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "prepared_sha256": "604bf1dedd437d7557d78c2879422211b9dbfbeb99a0401e56c8ce8c86d86538",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/script_plot_results.py",
+      "destination": "cases/aoa-sweep/script_plot_results.py",
+      "source_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "prepared_sha256": "3c4fd56b1993a47f3d60435b0c5548766a6ce79c5139b751f36ab592ef1d49e9",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/script_prepare_airfoil.py",
+      "destination": "cases/aoa-sweep/script_prepare_airfoil.py",
+      "source_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "prepared_sha256": "ea1f35ba5d22b52ae18d095295915cdac3f23f1fb81f472664d863d04ad231af",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/script_workflow_helpers.py",
+      "destination": "cases/aoa-sweep/script_workflow_helpers.py",
+      "source_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "prepared_sha256": "917caccf069eb6305bd41cf7dd262c344680dbbac403078dbb26950ca2a72d2f",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/step1_prepare_airfoil.sh",
+      "destination": "cases/aoa-sweep/step1_prepare_airfoil.sh",
+      "source_sha256": "948419dd6d42914beab3e40cad1642299a6dac93d07dadc9196f4e4f5c8bd485",
+      "prepared_sha256": "ca5d000888c5e8dd189e018947d17b30f30585ad3d487df06b809bf399eed214",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/step2_generate_mesh.sh",
+      "destination": "cases/aoa-sweep/step2_generate_mesh.sh",
+      "source_sha256": "889eef348d30b5dc5aad15f2e28f248aeaf720a592389ff508db80710cd8910c",
+      "prepared_sha256": "3f79ed65183011c9f7c1dcd406e217aba12d84b58993bacdfff9fd29c15a0e0e",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/step3_prepare_case.sh",
+      "destination": "cases/aoa-sweep/step3_prepare_case.sh",
+      "source_sha256": "990e8edcd29dbd707ebcc3988c6916a887b2a0bb02b7f66ae398c277613cf3ea",
+      "prepared_sha256": "7c7c5d803e2018a8fcfec2d58e311f088592661b84f01684d429a8418f8e75df",
+      "change": "case paths/comments, LF endings; shell environment/cleanup guards where applicable; numerical inputs unchanged"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/log_baseline_eval.txt",
+      "destination": "evidence/aoa-sweep/log_baseline_eval.txt.gz",
+      "source_sha256": "b6a7bdc24287ff53977bddd06bcffece233445fcd3223a1262026a325404020b",
+      "decompressed_sha256": "b6a7bdc24287ff53977bddd06bcffece233445fcd3223a1262026a325404020b",
+      "prepared_sha256": "d03254f715db0d2a2b2ed8a4ccf035e2b29c5ba5808a145497d39817d3d9c8d8",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/log_mesh.txt",
+      "destination": "evidence/aoa-sweep/log_mesh.txt.gz",
+      "source_sha256": "92bc2a4f63dbea2ec4d8e11aad05fd98fa8e3ea9a43d54a613517dbcff68c106",
+      "decompressed_sha256": "92bc2a4f63dbea2ec4d8e11aad05fd98fa8e3ea9a43d54a613517dbcff68c106",
+      "prepared_sha256": "f795f3e242f0e0d6e4629d7dc4611aabc353d64a9a79ccded0bce76ffc0dd95a",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/log_sweep.txt",
+      "destination": "evidence/aoa-sweep/log_sweep.txt.gz",
+      "source_sha256": "e64c7afa54e24923b943284da33f4e26b8763675420650b724220980ee2933ee",
+      "decompressed_sha256": "e64c7afa54e24923b943284da33f4e26b8763675420650b724220980ee2933ee",
+      "prepared_sha256": "8bf182a75390b395127948a82d7740f90d13b669f16a59d3061a2adc100b4562",
+      "change": "lossless gzip"
+    },
+    {
+      "source": "S809_Airfoil/report/figures/ffd_box.png",
+      "destination": "results/figures/case-a-ffd-box.png",
+      "source_sha256": "f8032cb58454684859b8f3a141abca7c512f6822d3d020b9448d69bbc279cbf0",
+      "prepared_sha256": "f8032cb58454684859b8f3a141abca7c512f6822d3d020b9448d69bbc279cbf0",
+      "change": "verbatim"
+    },
+    {
+      "source": "S809_Airfoil/airfoil_shape.png",
+      "destination": "results/figures/case-a-shape.png",
+      "source_sha256": "012c0cd4657f77c2cd037fd70ad266877888a3c20ea64c9041ecbc9244004c2a",
+      "prepared_sha256": "012c0cd4657f77c2cd037fd70ad266877888a3c20ea64c9041ecbc9244004c2a",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plots/shape_cp_overlay.png",
+      "destination": "results/figures/case-b-shape-and-cp.png",
+      "source_sha256": "e52ec671385eaf75e05eca20c69566111e6b35370f9a81e5cac87f87a57f9f24",
+      "prepared_sha256": "e52ec671385eaf75e05eca20c69566111e6b35370f9a81e5cac87f87a57f9f24",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plots/airfoil_mesh_overview.png",
+      "destination": "results/figures/case-b-mesh.png",
+      "source_sha256": "65c8d57a4fedcb0baa89411faee60de41cfacdb637f072dc7cfc1d354d7eca55",
+      "prepared_sha256": "65c8d57a4fedcb0baa89411faee60de41cfacdb637f072dc7cfc1d354d7eca55",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plots/cp_mesh_convergence_optimized.png",
+      "destination": "results/figures/case-b-cp-optimized.png",
+      "source_sha256": "fba8504806da0bcbb0f3ece9d483dd7c40e783a2136bbf5a91656fd9fe23ddcf",
+      "prepared_sha256": "fba8504806da0bcbb0f3ece9d483dd7c40e783a2136bbf5a91656fd9fe23ddcf",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plots/cp_mesh_convergence_baseline.png",
+      "destination": "results/figures/case-b-cp-baseline.png",
+      "source_sha256": "e45ac53f72dc69dcb510573c5790d16b47037e497d097e3c548bafb1332538e2",
+      "prepared_sha256": "e45ac53f72dc69dcb510573c5790d16b47037e497d097e3c548bafb1332538e2",
+      "change": "verbatim"
+    },
+    {
+      "source": "s809 FULL CASE REPORT.pdf",
+      "destination": "reports/s809-case-study-original.pdf",
+      "source_sha256": "ef83f5701b9ddddcae92dcade634e9d42fc15a5f6e9ab2149377b680ce466e3c",
+      "prepared_sha256": "ef83f5701b9ddddcae92dcade634e9d42fc15a5f6e9ab2149377b680ce466e3c",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/aoa_sweep_results.json",
+      "destination": "data/aoa_sweep_results.json",
+      "source_sha256": "e1b503969511ecced82526045994b42a1aa9e7383cc2291e6104a64f825d89da",
+      "prepared_sha256": "e1b503969511ecced82526045994b42a1aa9e7383cc2291e6104a64f825d89da",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/cst_coeffs.prepare.json",
+      "destination": "data/cst_baseline_coefficients.json",
+      "source_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "prepared_sha256": "ac23abc44066647ae9ab93ac69c31878f79fe9f1673e1632a8e1aaff35e0e22d",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/plots/data/airfoil_pressure_profile_surface_ordered.dat",
+      "destination": "data/case-b-optimized-surface.dat",
+      "source_sha256": "8aada4ba844215ed23087495462a207191b1e52ce564e58d939ed43f3ee24be8",
+      "prepared_sha256": "8aada4ba844215ed23087495462a207191b1e52ce564e58d939ed43f3ee24be8",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_aoa_sweep_0000/VTK_baseline/boundary.vtp",
+      "destination": "data/surfaces/cst-baseline.vtp",
+      "source_sha256": "b67127b511185db3edf04c7e2e393119e262e10c30c1040dde58d1e6c1d5fa82",
+      "prepared_sha256": "b67127b511185db3edf04c7e2e393119e262e10c30c1040dde58d1e6c1d5fa82",
+      "change": "verbatim"
+    },
+    {
+      "source": "airfoil_opt_s809_re2e6_cl04_0000/VTK/boundary.vtp",
+      "destination": "data/surfaces/cst-optimized.vtp",
+      "source_sha256": "c7fc0737ee5520e82c8e338667950e25aa66348585305f79faca796992c72b46",
+      "prepared_sha256": "c7fc0737ee5520e82c8e338667950e25aa66348585305f79faca796992c72b46",
+      "change": "verbatim"
+    }
+  ]
+}

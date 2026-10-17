@@ -1,0 +1,12 @@
+# Historical evidence/configuration hashes must survive Windows and Linux clones.
+* -text
+*.py text eol=lf
+*.sh text eol=lf
+*.md -text
+*.csv text eol=lf
+*.json -text
+*.png binary
+*.pdf binary
+*.gz binary
+*.vsp3 binary
+*.vtp binary
